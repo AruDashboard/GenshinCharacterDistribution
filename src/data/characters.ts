@@ -17,12 +17,14 @@ export interface CharacterInfo {
 }
 
 export interface CharacterTableData {
+  version: string;
   rows: RowInfo[];
   cols: ColInfo[];
   characters: CharacterInfo[];
 }
 
 const CHARACTERS: CharacterTableData = {
+  version: '7.1',
   rows: [
     {
       key: '风',

@@ -32,7 +32,9 @@ const url = (path: string) => imageUrl(path, import.meta.env.BASE_URL);
   </head>
   <body>
     <header id="banner" class="bar">
-      <span class="text-base font-semibold tracking-tight">原神角色分布 （截止至7.1）</span>
+      <span class="text-base font-semibold tracking-tight">
+        原神角色分布 （截止至{characters.version}）
+      </span>
       <button id="theme-toggle" type="button" aria-pressed="true">
         <span class="light-icon" aria-hidden="true">
           ☀
