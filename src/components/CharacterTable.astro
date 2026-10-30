@@ -25,8 +25,10 @@ const url = (path: string) => imageUrl(path, import.meta.env.BASE_URL);
         document.documentElement.classList.add('dark');
       }
     </script>
-    <meta name="description" content="按元素与武器类型查看原神角色分布。" />
+    <meta name="description" content="按元素与武器类型查看原神角色分布" />
     <title>原神角色分布</title>
+    <meta name="google-site-verification" content="tXyJhIUjwgDkdY4scPFF1nBiVW9co3-HjowXazdoL7I" />
+    <meta name="msvalidate.01" content="900BFBEC9CA24BE1B56B696EF1CE3B2E" />
   </head>
   <body>
     <header id="banner" class="bar">
@@ -124,5 +126,14 @@ const url = (path: string) => imageUrl(path, import.meta.env.BASE_URL);
     <div id="tip" role="tooltip"></div>
     <script src="../scripts/table.ts"></script>
     <script src="../scripts/theme.ts"></script>
+    <script async src="https://googletagmanager.com" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-7SJX08ZFSV');
+    </script>
   </body>
 </html>
