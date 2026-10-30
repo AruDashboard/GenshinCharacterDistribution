@@ -58,7 +58,7 @@ const url = (path: string) => imageUrl(path, import.meta.env.BASE_URL);
             {characters.cols.map((col) => (
               <th scope="col">
                 <div class="flex items-center justify-center gap-1.5">
-                  <img src={'/images/' + url(col.image)} alt={col.key} class="object-contain" />
+                  <img src={url('/images/' + col.image)} alt={col.key} class="object-contain" />
                   <span class="whitespace-nowrap">{col.key}</span>
                 </div>
               </th>
