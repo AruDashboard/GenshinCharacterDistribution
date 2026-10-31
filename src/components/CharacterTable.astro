@@ -62,7 +62,11 @@ const url = (path: string) => imageUrl(path, import.meta.env.BASE_URL);
             {characters.cols.map((col) => (
               <th scope="col">
                 <div class="flex items-center justify-center gap-1.5">
-                  <img src={url('/images/' + col.image)} alt={col.key} class="object-contain" />
+                  <img
+                    src={url('/images/weapons/' + col.image)}
+                    alt={col.key}
+                    class="object-contain"
+                  />
                   <span class="whitespace-nowrap">{col.key}</span>
                 </div>
               </th>
@@ -74,7 +78,11 @@ const url = (path: string) => imageUrl(path, import.meta.env.BASE_URL);
             <tr>
               <th scope="row">
                 <div class="flex items-center justify-center gap-4">
-                  <img src={url('/images/' + row.image)} alt={row.key} class="object-contain" />
+                  <img
+                    src={url('/images/elements/' + row.image)}
+                    alt={row.key}
+                    class="object-contain"
+                  />
                   <span class="whitespace-nowrap">{row.key}</span>
                 </div>
               </th>
@@ -83,7 +91,7 @@ const url = (path: string) => imageUrl(path, import.meta.env.BASE_URL);
                   <div class="imgs">
                     {cell.map((character) => (
                       <img
-                        src={url('/images/' + character.image)}
+                        src={url('/images/characters/' + character.image)}
                         alt={character.name}
                         data-tip={character.name}
                         data-rank={character.rank}
