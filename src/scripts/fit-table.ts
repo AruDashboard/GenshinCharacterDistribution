@@ -5,10 +5,7 @@ let pending = false;
 export function fitTable() {
   const fits = (scale: number) => {
     table.style.setProperty('--fit', String(scale));
-    return (
-      table.getBoundingClientRect().height <= wrap.clientHeight &&
-      table.scrollWidth <= wrap.clientWidth
-    );
+    return table.offsetHeight <= wrap.clientHeight && table.scrollWidth <= wrap.clientWidth;
   };
   if (fits(1)) return;
   let low = 0;
