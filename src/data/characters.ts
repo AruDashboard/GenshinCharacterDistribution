@@ -43,6 +43,8 @@ const CHARACTERS: CharacterTableData = {
   ],
   characters: [
     // 1.0
+    { name: '旅行者', rank: 5, element: '风', weapon: '单手剑', image: '旅行者.avif' },
+    { name: '旅行者', rank: 5, element: '岩', weapon: '单手剑', image: '旅行者.avif' },
     { name: '琴', rank: 5, element: '风', weapon: '单手剑', image: '琴.avif' },
     { name: '迪卢克', rank: 5, element: '火', weapon: '双手剑', image: '迪卢克.avif' },
     { name: '七七', rank: 5, element: '冰', weapon: '单手剑', image: '七七.avif' },
@@ -90,6 +92,7 @@ const CHARACTERS: CharacterTableData = {
     { name: '枫原万叶', rank: 5, element: '风', weapon: '单手剑', image: '枫原万叶.avif' },
 
     //  2.0
+    { name: '旅行者', rank: 5, element: '雷', weapon: '单手剑', image: '旅行者.avif' },
     { name: '神里绫华', rank: 5, element: '冰', weapon: '单手剑', image: '神里绫华.avif' },
     { name: '宵宫', rank: 5, element: '火', weapon: '弓', image: '宵宫.avif' },
     { name: '早柚', rank: 4, element: '风', weapon: '双手剑', image: '早柚.avif' },
@@ -124,6 +127,7 @@ const CHARACTERS: CharacterTableData = {
     { name: '鹿野院平藏', rank: 4, element: '风', weapon: '法器', image: '鹿野院平藏.avif' },
 
     //  3.0
+    { name: '旅行者', rank: 5, element: '草', weapon: '单手剑', image: '旅行者.avif' },
     { name: '提纳里', rank: 5, element: '草', weapon: '弓', image: '提纳里.avif' },
     { name: '柯莱', rank: 4, element: '草', weapon: '弓', image: '柯莱.avif' },
     { name: '多莉', rank: 4, element: '雷', weapon: '双手剑', image: '多莉.avif' },
@@ -157,6 +161,7 @@ const CHARACTERS: CharacterTableData = {
     { name: '绮良良', rank: 4, element: '草', weapon: '单手剑', image: '绮良良.avif' },
 
     //  4.0
+    { name: '旅行者', rank: 5, element: '水', weapon: '单手剑', image: '旅行者.avif' },
     { name: '林尼', rank: 5, element: '火', weapon: '弓', image: '林尼.avif' },
     { name: '琳妮特', rank: 4, element: '风', weapon: '单手剑', image: '琳妮特.avif' },
     { name: '菲米尼', rank: 4, element: '冰', weapon: '双手剑', image: '菲米尼.avif' },
@@ -204,6 +209,7 @@ const CHARACTERS: CharacterTableData = {
     { name: '欧洛伦', rank: 4, element: '雷', weapon: '弓', image: '欧洛伦.avif' },
 
     //  5.3
+    { name: '旅行者', rank: 5, element: '火', weapon: '单手剑', image: '旅行者.avif' },
     { name: '玛薇卡', rank: 5, element: '火', weapon: '双手剑', image: '玛薇卡.avif' },
     { name: '茜特菈莉', rank: 5, element: '冰', weapon: '法器', image: '茜特菈莉.avif' },
     { name: '蓝砚', rank: 4, element: '风', weapon: '法器', image: '蓝砚.avif' },
@@ -257,6 +263,7 @@ const CHARACTERS: CharacterTableData = {
     { name: '桑多涅', rank: 5, element: '冰', weapon: '双手剑', image: '桑多涅.avif' },
 
     //  7.0
+    { name: '旅行者', rank: 5, element: '冰', weapon: '单手剑', image: '旅行者.avif' },
     { name: '奥黛塔', rank: 5, element: '冰', weapon: '单手剑', image: '奥黛塔.avif' },
     { name: '阿罗夏', rank: 4, element: '冰', weapon: '长柄武器', image: '阿罗夏.avif' },
 
