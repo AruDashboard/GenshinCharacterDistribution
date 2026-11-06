@@ -24,7 +24,7 @@ export interface CharacterTableData {
 }
 
 const CHARACTERS: CharacterTableData = {
-  version: '7.1',
+  version: '7.2',
   rows: [
     { key: '风', image: 'anemo.png' },
     { key: '岩', image: 'geo.png' },
@@ -270,6 +270,10 @@ const CHARACTERS: CharacterTableData = {
     //  7.1
     { name: '薇斯纳', rank: 5, element: '风', weapon: '单手剑', image: '奥黛塔.avif' },
     { name: '沃雅妮莎', rank: 5, element: '水', weapon: '法器', image: '沃雅妮莎.avif' },
+
+    //  7.2
+    { name: '米提亚', rank: 5, element: '雷', weapon: '法器', image: '米提亚.avif' },
+    { name: '瓦列里', rank: 4, element: '雷', weapon: '单手剑', image: '瓦列里.avif' },
   ],
 };
 
